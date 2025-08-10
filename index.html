@@ -46,26 +46,13 @@
             background: #1d405b;
         }
     </style>
-    <script>
-        function toggleStatus() {
-            const statusDiv = document.getElementById('statusBox');
-            if (statusDiv.classList.contains('status-preparing')) {
-                statusDiv.classList.remove('status-preparing');
-                statusDiv.classList.add('status-complete');
-                statusDiv.textContent = '現在の進捗: 完了';
-            } else {
-                statusDiv.classList.remove('status-complete');
-                statusDiv.classList.add('status-preparing');
-                statusDiv.textContent = '現在の進捗: 準備中';
-            }
-        }
-    </script>
+  
 </head>
 <body>
+    <h2>大阪府立池田高等学校　中夜祭実行委員会　照明班（代表 安田）</h2>
+    <h1> 2025中夜祭　照明プラン共有サイト</h1>
 
-    <h1>○○バンド 照明プラン</h1>
-
-    <!-- 進捗表示（切り替えボタン付き） -->
+   
     <div id="statusBox" class="status status-preparing">
         現在の進捗: 準備中
     </div>
@@ -73,20 +60,22 @@
 
     <h2>照明プラン資料（Googleドキュメント）</h2>
     <iframe 
-        src="https://docs.google.com/document/d/1LHZrKcb9eG0Bvx7LdA6KbNNYa3uS_fBkez9hNbI6vfo/pub?embedded=true" 
+        src="https://docs.google.com/spreadsheets/d/1LHZrKcb9eG0Bvx7LdA6KbNNYa3uS_fBkez9hNbI6vfo/edit?usp=sharing"
         width="100%" height="500">
     </iframe>
 
+    <!-- 
     <h2>参考資料（PDF）</h2>
     <iframe 
         src="https://【ここにPDFのURL】" 
         width="100%" height="500">
     </iframe>
-
+-->
     <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
         ※ GoogleドキュメントやPDFのURLは、公開リンクを設定してください
     </p>
 
 </body>
 </html>
+
 
